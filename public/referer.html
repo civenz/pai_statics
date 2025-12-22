@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<body>
+
+  <div id="result" class="loading">加载中...</div>
+
+  <script>
+    const url = 'https://www.pai.com.cn/api/wechat/get-signature?url=https://www.pai.com.cn/';
+    const result = document.getElementById('result');
+
+    fetch(url)
+      .then(data => {
+        result.className = '';
+        result.innerHTML = '<strong>请求成功！返回数据：</strong><br><pre>' +
+          JSON.stringify(data, null, 2) + '</pre>';
+      })
+      .catch(error => {
+        result.innerHTML = '<strong>请求失败</strong>';
+      });
+  </script>
+
+</body>
+</html>

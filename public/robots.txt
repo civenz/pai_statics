@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /*.jpg$
+Disallow: /*.jpeg$
+Disallow: /*.gif$
+Disallow: /*.png$
+Disallow: /*.webp$
+Disallow: /*.bmp$
+Sitemap: https://www.pai.com.cn/sitemap.xml

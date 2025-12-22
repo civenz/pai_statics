@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="270px" height="40px" viewBox="0 0 270 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 38</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="270" height="40"></rect>
+        <linearGradient x1="100%" y1="49.7645656%" x2="46.4596645%" y2="50.325279%" id="linearGradient-3">
+            <stop stop-color="#FFC139" offset="0%"></stop>
+            <stop stop-color="#FF7A46" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="47.4490458%" x2="46.4327846%" y2="51.8114353%" id="linearGradient-4">
+            <stop stop-color="#FCCF56" stop-opacity="0.8" offset="0%"></stop>
+            <stop stop-color="#F43D57" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="定稿" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="首页4.0备份" transform="translate(-1030.000000, -266.000000)">
+            <g id="快讯背景" transform="translate(1030.000000, 266.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="蒙版" fill="#FF140A" xlink:href="#path-1"></use>
+                <polygon id="路径-2" fill="url(#linearGradient-3)" opacity="0.800000012" mask="url(#mask-2)" points="299.153367 1.61375155 299.153367 40.2804182 -17.6883736 40.2804182"></polygon>
+                <polygon id="路径" fill="url(#linearGradient-4)" opacity="0.600000024" mask="url(#mask-2)" points="94.7210815 41.6137515 276.971082 -8.16402623 276.971082 41.6137515"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
